@@ -9,6 +9,13 @@ This package defines new Emacs input method `ukrainian-computer-dvp`. This is
 an adaptation of `ukrainian-computer` for the Programmer Dvorak keyboard
 layout.
 
+```text
+' 1! 2" 3№ 4; 5% 6: 7? 8* 9( 0) -_ =+
+ Й  Ц  У  К  Е  Н  Г  Ш  Щ  З  Х  Ї
+  Ф  І  В  А  П  Р  О  Л  Д  Ж  Є  Ґ
+    Я  Ч  С  М  И  Т  Ь  Б  Ю  .,
+```
+
 ### TL;DR usage
 
 
