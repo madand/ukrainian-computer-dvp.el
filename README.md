@@ -23,7 +23,7 @@ Somehow install the package into your `load-path`, and then:
 
 ```elisp
 (require 'ukrainian-computer-dvp)
-(set-input-method 'ukrainian-computer-dvp t)
+(setq default-input-method 'ukrainian-computer-dvp)
 ```
 
 ### Installation
@@ -69,7 +69,7 @@ This assumes the package is installed somewhere in the `load-path`:
 
 ```elisp
 (use-package ukrainian-computer-dvp
-  :config (set-input-method 'ukrainian-computer-dvp t))
+  :custom (default-input-method 'ukrainian-computer-dvp)
 ```
 
 * https://github.com/jwiegley/use-package
@@ -81,7 +81,7 @@ This assumes the package is installed somewhere in the `load-path`:
 ```elisp
 (leaf ukrainian-computer-dvp
   :require t
-  :config (set-input-method 'ukrainian-computer-dvp t))
+  :custom (default-input-method . 'ukrainian-computer-dvp)
 ```
 
 * https://github.com/conao3/leaf.el
@@ -93,7 +93,7 @@ Single declaration that installs, loads and activates the package:
 ```elisp
 (use-package ukrainian-computer-dvp
   :straight (:host github :repo "madand/ukrainian-computer-dvp.el")
-  :config (set-input-method 'ukrainian-computer-dvp t))
+  :custom (default-input-method 'ukrainian-computer-dvp)
 ```
 
 * https://github.com/jwiegley/use-package
@@ -108,7 +108,7 @@ Single declaration that installs, loads and activates the package:
   :straight (ukrainian-computer-dvp :host github
                                           :repo "madand/ukrainian-computer-dvp.el")
   :require t
-  :config (set-input-method 'ukrainian-computer-dvp t))
+  :custom (default-input-method . 'ukrainian-computer-dvp)
 ```
 
 * https://github.com/conao3/leaf.el

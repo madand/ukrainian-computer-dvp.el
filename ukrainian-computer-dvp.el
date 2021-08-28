@@ -41,7 +41,7 @@
 
 ;; ```elisp
 ;; (require 'ukrainian-computer-dvp)
-;; (set-input-method 'ukrainian-computer-dvp t)
+;; (setq default-input-method 'ukrainian-computer-dvp)
 ;; ```
 
 ;;; Installation
@@ -85,7 +85,7 @@
 
 ;; ```elisp
 ;; (use-package ukrainian-computer-dvp
-;;   :config (set-input-method 'ukrainian-computer-dvp t))
+;;   :custom (default-input-method 'ukrainian-computer-dvp)
 ;; ```
 
 ;; * https://github.com/jwiegley/use-package
@@ -97,7 +97,7 @@
 ;; ```elisp
 ;; (leaf ukrainian-computer-dvp
 ;;   :require t
-;;   :config (set-input-method 'ukrainian-computer-dvp t))
+;;   :custom (default-input-method . 'ukrainian-computer-dvp)
 ;; ```
 
 ;; * https://github.com/conao3/leaf.el
@@ -109,7 +109,7 @@
 ;; ```elisp
 ;; (use-package ukrainian-computer-dvp
 ;;   :straight (:host github :repo "madand/ukrainian-computer-dvp.el")
-;;   :config (set-input-method 'ukrainian-computer-dvp t))
+;;   :custom (default-input-method 'ukrainian-computer-dvp)
 ;; ```
 
 ;; * https://github.com/jwiegley/use-package
@@ -124,7 +124,7 @@
 ;;   :straight (ukrainian-computer-dvp :host github
 ;;                                           :repo "madand/ukrainian-computer-dvp.el")
 ;;   :require t
-;;   :config (set-input-method 'ukrainian-computer-dvp t))
+;;   :custom (default-input-method . 'ukrainian-computer-dvp)
 ;; ```
 
 ;; * https://github.com/conao3/leaf.el
